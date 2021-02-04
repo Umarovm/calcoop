@@ -10,10 +10,7 @@ _Bool iswholenumber(long double unknown) {
 }
 
 int main() {
-	long double bill;
-	long double deductible;
-	long double the_value;
-	long double outofpocket_max;
+	long double bill, deductible, the_value, outofpocket_max;
 
 	setlocale(LC_NUMERIC, "");
 
