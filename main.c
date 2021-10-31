@@ -13,7 +13,6 @@ int main() {
 	long double bill, deductible, the_value, outofpocket_max;
 
 	setlocale(LC_NUMERIC, "");
-
 	printf("Enter the bill (without the currency sign or commas): ");
 	scanf("%Lf", &bill);
 	printf("Enter the deductible (without the currency sign or commas): ");
